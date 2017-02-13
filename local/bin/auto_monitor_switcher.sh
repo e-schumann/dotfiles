@@ -6,8 +6,8 @@
 #      http://unix.stackexchange.com/questions/14854/xrandr-command-not-executed-within-shell-command-called-from-udev-rule
 # -----------------------------------------------------------------------------------------------------------------------------
  
-export DISPLAY=:0
-export XAUTHORITY=/home/$USERNAME/.Xauthority
+#export DISPLAY=:0
+#export XAUTHORITY=/home/$USERNAME/.Xauthority
 
 
 MAIN="VGA1"
