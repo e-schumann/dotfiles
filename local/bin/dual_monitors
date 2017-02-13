@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+
+xrandr --output DP2-2 --mode 1680x1050 --output VGA1 --mode 1920x1200 --primary --right-of DP2-2 --output eDP1 --off
