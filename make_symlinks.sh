@@ -9,7 +9,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="emacs.d i3 local vim bash_logout bash_profile bashrc dir_colors extend.bashrc extend.xinitrc 
+files="emacs.d i3 local bash_logout bash_profile bashrc dir_colors extend.bashrc extend.xinitrc 
 extend.Xresources j4-make-config.rc profile spacemacs vimrc Xauthority Xresources xsession"    # list of 
 files/folders to symlink in homedir
 
