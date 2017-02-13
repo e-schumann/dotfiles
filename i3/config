@@ -271,7 +271,7 @@ mode "resize" {
 bindsym $mod+9 exec --no-startup-id blurlock
 
 # Setup with xrandr
-bindsym $mod+Shift+Ctrl+s exec --no-startup-id /home/thor/.local/bin/dual_monitors
+bindsym $mod+Shift+Ctrl+s exec --no-startup-id /home/thor/.local/bin/auto_monitor_switcher.sh
 
 
 # Autostart applications
