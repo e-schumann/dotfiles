@@ -91,7 +91,10 @@ Plugin 'scrooloose/syntastic'
 
 Plugin 'sjl/tslime.vim'
 
-Plugin 'bling/vim-airline'
+"Plugin 'bling/vim-airline'
+
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'sjl/vitality.vim'
 
@@ -210,6 +213,8 @@ set dictionary=/usr/share/dict/words
 set spellfile=~/.vim/custom-dictionary.utf-8.add
 set colorcolumn=+1
 
+"let g:Powerline_symbols='fancy'
+let g:airline#extensions#tabline#enabled = 1
 let g:C_UseTool_cmake = 'yes'
 let g:C_UseTool_doxygen = 'yes'
 let g:C_SourceCodeExtensions = 'c cc cp cxx cpp CPP c++ C i ii'
@@ -344,7 +349,7 @@ set shiftwidth=3
 set softtabstop=3
 set expandtab
 set wrap
-set textwidth=80
+set textwidth=120
 set formatoptions=qrn1j
 set colorcolumn=+1
 
@@ -2331,32 +2336,30 @@ if has('gui_running')
 else
   " Console Vim
 
-  if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-  endif
+"  if !exists('g:airline_symbols')
+"'    let g:airline_symbols = {}
+"'  endif
 
   " unicode symbols
-  let g:airline_left_sep = '»'
-  let g:airline_left_sep = '▶'
-  let g:airline_right_sep = '«'
-  let g:airline_right_sep = '◀'
-  let g:airline_symbols.linenr = '␊'
-  let g:airline_symbols.linenr = '␤'
-  let g:airline_symbols.linenr = '¶'
-  let g:airline_symbols.branch = '⎇'
-  let g:airline_symbols.paste = 'ρ'
-  let g:airline_symbols.paste = 'Þ'
-  let g:airline_symbols.paste = '∥'
-  let g:airline_symbols.whitespace = 'Ξ'
+"'  let g:airline_left_sep = '»'
+"'  let g:airline_left_sep = '▶'
+"'  let g:airline_right_sep = '«'
+"'  let g:airline_right_sep = '◀'
+"'  let g:airline_symbols.linenr = '¶'
+"''  let g:airline_symbols.branch = '⎇'
+"'  let g:airline_symbols.paste = 'ρ'
+"'  let g:airline_symbols.paste = 'Þ'
+""  let g:airline_symbols.paste = '∥'
+"  let g:airline_symbols.whitespace = 'Ξ'
 
   " powerline symbols
-  let g:airline_left_sep = ''
-  let g:airline_left_alt_sep = ''
-  let g:airline_right_sep = ''
-  let g:airline_right_alt_sep = ''
-  let g:airline_symbols.branch = ''
-  let g:airline_symbols.readonly = ''
-  let g:airline_symbols.linenr = ''
+"  let g:airline_left_sep = ''
+"  let g:airline_left_alt_sep = ''
+"  let g:airline_right_sep = ''
+"  let g:airline_right_alt_sep = ''
+"  let g:airline_symbols.branch = ''
+"  let g:airline_symbols.readonly = ''
+"  let g:airline_symbols.linenr = ''
 
 
 
