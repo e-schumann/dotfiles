@@ -14,10 +14,12 @@ Xft.rgba: rgb
 Xft.autohint: false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
+urxvt*font: xft:Inconsolata\ for\ Powerline:pixelsize=14:antialias=true
 
 XTerm*background: #2b2b2b
 XTerm*foreground: #e7e7e7
 XTerm*pointerColor: #16A085
 XTerm*faceName: Fixed
 XTerm*faceSize: 11
+xterm*faceName: xft:Inconsolata\ for\ Powerline:pixelsize=14:antialias=true
 
